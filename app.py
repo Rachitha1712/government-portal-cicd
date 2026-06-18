@@ -7,7 +7,7 @@ def service_available(service):
         "Certificate"
     ]
 
-    return service in services
+    return False
 
 
 if __name__ == "__main__":
